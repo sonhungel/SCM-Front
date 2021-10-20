@@ -5,7 +5,7 @@ class App extends Component {
   render(){
     return (
       <HashRouter>
-        
+        <Route path="/" name="Home" render={props => <TheLayout {...props}/>} />
       </HashRouter>
     );
   }
