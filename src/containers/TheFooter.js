@@ -9,7 +9,6 @@ const TheFooter = () => {
       </div>
       <div className="mfs-auto">
         <span className="mr-1">Powered by</span>
-        <span>CoreUI for React</span>
       </div>
     </CFooter>
   )
