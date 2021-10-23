@@ -56,7 +56,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Doanh số',
-    to: '/chart',
+    to: '/charts',
     icon: <CIcon icon={cilChartPie} customClassName="nav-icon" />,
   },
   {
@@ -70,6 +70,11 @@ const _nav = [
     name: 'Thiết lập',
     to: '/carts',
     icon: <CIcon icon={cilBell} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'Tables',
+    to: '/tables',
   },
 
 ]
