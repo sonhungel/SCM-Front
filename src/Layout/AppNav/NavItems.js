@@ -48,4 +48,10 @@ export const SettingNav = [
     label: "Thiết lập",
     to: "#/dashboards/basic",
   },
+
+  {
+    icon: "lnr-lock",
+    label: "Login",
+    to: "#/login",
+  },
 ];
