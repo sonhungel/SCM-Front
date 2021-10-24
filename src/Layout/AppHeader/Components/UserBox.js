@@ -4,16 +4,14 @@ import {
   DropdownToggle,
   DropdownMenu,
   Nav,
-  Button,
   NavItem,
   NavLink,
-  UncontrolledTooltip,
   UncontrolledButtonDropdown,
 } from "reactstrap";
 
 import { toast, Bounce } from "react-toastify";
 
-import { faCalendarAlt, faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -59,7 +57,10 @@ class UserBox extends React.Component {
                       icon={faAngleDown}
                     />
                   </DropdownToggle>
-                  <DropdownMenu right className="rm-pointers dropdown-menu-lg">
+                  <DropdownMenu
+                    right
+                    className="rm-pointers dropdown-menu-lg-left"
+                  >
                     <Nav vertical>
                       <NavItem className="nav-item-header">Activity</NavItem>
                       <NavItem>
@@ -89,7 +90,7 @@ class UserBox extends React.Component {
                         </NavLink>
                       </NavItem>
                       <NavItem>
-                        <NavLink href="javascript:void(0);">Logs</NavLink>
+                        <NavLink href="javascript:void(0);">Logout</NavLink>
                       </NavItem>
                     </Nav>
                   </DropdownMenu>

@@ -44,11 +44,15 @@ export const ComponentsNav = [
 ];
 export const SettingNav = [
   {
+    icon: "pe-7s-id",
+    label: "Quản lý nhân sự",
+    to: "#/dashboards/basic",
+  },
+  {
     icon: "lnr-cog",
     label: "Thiết lập",
     to: "#/dashboards/basic",
   },
-
   {
     icon: "lnr-lock",
     label: "Login",

@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-.bg-primary {
-  background-color: #033c73 !important;
-}
-
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
@@ -600,62 +596,6 @@ pre code {
   font-size: inherit;
   color: inherit;
   word-break: normal;
-}
-
-.form-inline {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-}
-.form-inline .form-check {
-  width: 100%;
-}
-@media (min-width: 576px) {
-  .form-inline label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
-  }
-  .form-inline .form-group {
-    display: flex;
-    flex: 0 0 auto;
-    flex-flow: row wrap;
-    align-items: center;
-    margin-bottom: 0;
-  }
-  .form-inline .form-control {
-    display: inline-block;
-    width: auto;
-    vertical-align: middle;
-  }
-  .form-inline .form-control-plaintext {
-    display: inline-block;
-  }
-  .form-inline .input-group,
-  .form-inline .custom-select {
-    width: auto;
-  }
-  .form-inline .form-check {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    padding-left: 0;
-  }
-  .form-inline .form-check-input {
-    position: relative;
-    margin-top: 0;
-    margin-right: 0.25rem;
-    margin-left: 0;
-  }
-  .form-inline .custom-control {
-    align-items: center;
-    justify-content: center;
-  }
-  .form-inline .custom-control-label {
-    margin-bottom: 0;
-  }
 }
 
 .btn {
@@ -6260,13 +6200,6 @@ button,
   margin-right: auto !important;
 }
 
-.icon-gradient {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
-
 .font-size-xlg {
   font-size: 1.3rem !important;
 }
@@ -6439,9 +6372,6 @@ Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2015 Daniel Eden
 */
-body {
-  -webkit-backface-visibility: hidden;
-}
 
 .animated,
 .TabsAnimation-appear {
@@ -8761,7 +8691,6 @@ a.badge-alternate:focus {
 [class*=" pe-7s-"] {
   display: inline-block;
   font-family: "Pe-icon-7-stroke";
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -8918,6 +8847,10 @@ a.badge-alternate:focus {
   border: solid 0.08em #eaeaea;
 }
 
+.pe-7s-id:before {
+  content: "";
+}
+
 .pe-7s-plane:before {
   content: "";
 }
@@ -8954,7 +8887,6 @@ a.badge-alternate:focus {
 [class^="lnr-"],
 [class*=" lnr-"] {
   font-family: "Linearicons-Free";
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
