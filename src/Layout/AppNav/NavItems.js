@@ -46,7 +46,7 @@ export const SettingNav = [
   {
     icon: "pe-7s-id",
     label: "Quản lý nhân sự",
-    to: "#/dashboards/basic",
+    to: "#/HRM",
   },
   {
     icon: "lnr-cog",
