@@ -29,7 +29,7 @@ export const ComponentsNav = [
   {
     icon: "pe-7s-culture",
     label: "Tồn Kho",
-    to: "#/dashboards/basic",
+    to: "#/inventory",
   },
   {
     icon: "pe-7s-cash",
