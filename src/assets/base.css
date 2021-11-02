@@ -641,11 +641,7 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
-.btn-primary {
-  color: #fff;
-  background: #033c73 linear-gradient(180deg, #295988, #033c73) repeat-x;
-  border-color: #033c73;
-}
+
 .btn-primary:hover {
   color: #fff;
   background: #02294e linear-gradient(180deg, #284969, #02294e) repeat-x;
