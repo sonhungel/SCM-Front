@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import cx from "classnames";
+import "../../assets/base.css"
 
 import { connect } from "react-redux";
 
