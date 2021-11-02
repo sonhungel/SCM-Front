@@ -7,6 +7,8 @@ const Dashboards = lazy(() => import("../../Views/Dashboards"));
 const Login = lazy(() => import("../../Views/Login/SignIn"));
 const Inventory = lazy(() => import("../../Views/Inventory/Inventory"));
 
+const HRM = lazy(() => import("../../Views/HRM/HRM"));
+
 const AppMain = () => {
   return (
     <Fragment>
@@ -63,7 +65,7 @@ const AppMain = () => {
           </div>
         }
       >
-        <Route path="/inventory" component={Inventory} />
+        <Route path="/HRM" component={HRM} />
       </Suspense>
 
       <Route
