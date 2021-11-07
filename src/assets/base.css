@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 a.bg-primary:hover,
-a.bg-primary:focus,
-button.bg-primary:hover,
-button.bg-primary:focus {
+a.bg-primary:focus{
   background-color: #022241 !important;
 }
 
@@ -34,9 +32,7 @@ button.bg-success:focus {
 }
 
 a.bg-info:hover,
-a.bg-info:focus,
-button.bg-info:hover,
-button.bg-info:focus {
+a.bg-info:focus{
   background-color: #178acc !important;
 }
 
@@ -78,9 +74,7 @@ button.bg-light:focus {
 }
 
 a.bg-dark:hover,
-a.bg-dark:focus,
-button.bg-dark:hover,
-button.bg-dark:focus {
+a.bg-dark:focus{
   background-color: #1d2124 !important;
 }
 
@@ -2466,9 +2460,7 @@ a.close.disabled {
 }
 
 a.bg-primary:hover,
-a.bg-primary:focus,
-button.bg-primary:hover,
-button.bg-primary:focus {
+a.bg-primary:focus{
   background-color: #022241 !important;
 }
 
@@ -2499,9 +2491,7 @@ button.bg-success:focus {
 }
 
 a.bg-info:hover,
-a.bg-info:focus,
-button.bg-info:hover,
-button.bg-info:focus {
+a.bg-info:focus {
   background-color: #178acc !important;
 }
 
@@ -2543,9 +2533,7 @@ button.bg-light:focus {
 }
 
 a.bg-dark:hover,
-a.bg-dark:focus,
-button.bg-dark:hover,
-button.bg-dark:focus {
+a.bg-dark:focus{
   background-color: #1d2124 !important;
 }
 
